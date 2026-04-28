@@ -1,15 +1,8 @@
 import "./styles/Career.css";
 
-const achievements = [
-  { title: "Winner", event: "Best FinTech Innovation", venue: "ABESEC Hackathon 2026", detail: "Beat 38 teams" },
-  { title: "Runner-Up", event: "Futurix 2026", venue: "Dronacharya College of Engineering", detail: "2nd Prize" },
-  { title: "Runner-Up", event: "Software Track", venue: "Nextify Hackathon 2026", detail: "50 teams" },
-  { title: "2nd Runner-Up", event: "Software Track", venue: "HackMSIT 2026", detail: "Top 10/60 teams" },
-];
-
 const Career = () => {
   return (
-    <div className="career-section section-container">
+    <div className="career-section section-container" id="career">
       <div className="career-container">
         <h2>
           My career <span>&</span>
@@ -45,24 +38,6 @@ const Career = () => {
               GPA: 8.3/10. Relevant coursework: DSA, DBMS, Computer Networks, Operating Systems, 
               Design & Analysis of Algorithms.
             </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Hackathon Wins</h4>
-                <h5>4 Wins · 7 Competitions</h5>
-              </div>
-            </div>
-            <div className="achievements-grid">
-              {achievements.map((ach, i) => (
-                <div key={i} className="achievement-card">
-                  <span className="ach-badge">{ach.title}</span>
-                  <h4>{ach.event}</h4>
-                  <p>{ach.venue}</p>
-                  <span className="ach-detail">{ach.detail}</span>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </div>
