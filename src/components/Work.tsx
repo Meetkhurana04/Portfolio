@@ -12,13 +12,6 @@ const projects = [
     link: "https://github.com/meetkhurana04",
   },
   {
-    title: "WhatsApp Chat Analyzer",
-    category: "Zero-Dependency NLP Data Pipeline",
-    tools: "Python · Flask · Regex · Jinja2 · Bootstrap",
-    image: "/images/whatsapp.png",
-    link: "https://github.com/meetkhurana04",
-  },
-  {
     title: "AirPay",
     category: "Offline UPI Payment System",
     tools: "React Native · Node.js · GSM Signaling · State Machine",
@@ -30,6 +23,13 @@ const projects = [
     category: "Real-Time WebSocket Multiplayer Game",
     tools: "Core JavaScript · Flask · Socket.IO · Supabase",
     image: "/images/orrdr.png",
+    link: "https://github.com/meetkhurana04",
+  },
+  {
+    title: "WhatsApp Chat Analyzer",
+    category: "Zero-Dependency NLP Data Pipeline",
+    tools: "Python · Flask · Regex · Jinja2 · Bootstrap",
+    image: "/images/whatsapp.png",
     link: "https://github.com/meetkhurana04",
   },
 ];
