@@ -6,9 +6,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Backend-focused engineering undergrad building scraping infrastructure, automation pipelines, 
-          and production backend systems. Shipped real-world tools including a multi-platform 
-          price aggregation system (7 e-commerce services) and Dockerized WhatsApp automation bot.
+          Full-stack engineering undergraduate with hands-on experience building scalable backend services, RESTful APIs, and React-based frontends in production environments.
         </p>
       </div>
     </div>

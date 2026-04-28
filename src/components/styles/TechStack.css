@@ -64,27 +64,24 @@
   letter-spacing: 0.5px;
 }
 
-.techstack-tags {
+.techstack-badges {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  align-items: center;
 }
 
-.techstack-tag {
-  padding: 8px 16px;
-  background: rgba(30, 30, 40, 0.8);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-  font-size: 14px;
-  font-weight: 500;
-  color: #e2e8f0;
+.techstack-badge-img {
+  height: 28px;
+  border-radius: 6px;
   transition: all 0.3s ease;
+  filter: brightness(0.9);
 }
 
-.techstack-tag:hover {
-  background: rgba(20, 184, 166, 0.2);
-  border-color: rgba(20, 184, 166, 0.4);
-  color: #fff;
+.techstack-badge-img:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 
 @media only screen and (max-width: 900px) {
@@ -95,6 +92,10 @@
   .techstack-section h2 {
     font-size: 50px;
     line-height: 55px;
+  }
+  
+  .techstack-badge-img {
+    height: 24px;
   }
 }
 
@@ -113,8 +114,11 @@
     font-size: 16px;
   }
   
-  .techstack-tag {
-    padding: 6px 12px;
-    font-size: 12px;
+  .techstack-badge-img {
+    height: 22px;
+  }
+  
+  .techstack-badges {
+    gap: 8px;
   }
 }
